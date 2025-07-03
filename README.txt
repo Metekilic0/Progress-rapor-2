@@ -7,3 +7,7 @@ V21 MODEL --- BÜYÜK VERİ SETİNDE V20 MODEL İLE AYNI SADECE SINIFLARI HELİK
 VERİ SETLERİM;
 final_dataset1 kuş veri setim sadece kuş ve drone var.V21 MODEL HARİÇ TÜM MODELLERİM BU VERİ SETİNİ KULLANDI.
 dataset4 büyük veri setim tüm sınıfları içeriyor. V22 Modelde kullandım %98,26 doğruluk yüzdesi elde ettim.
+
+DENEME VERİ SETLERİM;
+dataset1_küçük Küçük veri setim için 100-20-20 dağılmış örnek veri
+dataset4_küçük Büyük veri setim için 100-20-20 dağılmış örnek veri
