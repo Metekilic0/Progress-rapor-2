@@ -11,3 +11,9 @@ dataset4 büyük veri setim tüm sınıfları içeriyor. V21 Modelde kullandım 
 DENEME VERİ SETLERİM;
 dataset1_küçük Küçük veri setim için 100-20-20 dağılmış örnek veri
 dataset4_küçük Büyük veri setim için 100-20-20 dağılmış örnek veri
+
+MODELLERİM;
+best_4class_model.keras --- en son kullandığım büyük veri setimdeki model yani V21
+best_model.keras --- V20 yani küçük veri setiminin en gelişmiş hali
+best_tl_model.keras --- MobileNetV2 kullanılmış transfer learning modelim 
+
