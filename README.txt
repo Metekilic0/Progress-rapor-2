@@ -16,3 +16,15 @@ best_4class_model.keras --- en son kullandığım büyük veri setimdeki model y
 best_model.keras --- V20 yani küçük veri setiminin en gelişmiş hali
 best_tl_model.keras --- MobileNetV2 kullanılmış transfer learning modelim 
 
+Sonuç;
+Projemde 2. Yöntem olan CNN modeli eğitme konusunda önemli derecede ilerleme kaydettiğinimi düşünüyorum. İlk 
+model %81 başarı yüzdesinden başlarken en gelişmiş modelim %98 bir başarı yüzdesi yakaladı. Bu modelde 
+olabilecek birçok şeyi test ettim. Bunları biraz detaylandırmak gerekirse son modelime ulaşırken bu modelde Batch 
+Normalization, Dynamic Learning Rate, 5 katmanlı Conv2D, Sınıf ağırlıklandırma, EarlyStopping ve Checkpoint, 
+sınıflandırıcı olarakGlobalAveragePooling2D, Dropout katmanı kullandım. Optimizer için Adam’ı kullandım.  Bu 
+projede beklediğim beklemediğim tüm sonuçları modellerin altında detaylıca belirttim. Transfer learning modeli olan 
+mobilenetv2 kullandım ve çok başarılı sonuçlar elde ettim. 
+Burada kısaca belirtmek gerekirse Data augmentation konusunda beklediğim sonuçları alamadım ve modelde 
+kullanmadım. Buna benzer şekilde küçük veri setinde yüksek çözünürlük, ek bir dropout katmanı, Dense ve flatten 
+katman sayısı düşürme gibi yöntemler beklediğim sonuçları vermediği için modelde kullanmadım. En sonda ise 
+büyük veri setimi test ettim ve %98 doğruluk yüzdesine ulaştım. 
