@@ -1,4 +1,5 @@
 KOD OLARAK YÜKLEDİĞİM MODELLER;
+V12 MODEL --- SINIF AĞIRLIKLANDIRMA-DYNAMİC LEARNİNG RATE VE 3 KATMANLI MODEL %94 DOĞRULUK ORANI
 V20 MODEL --- 5. KATMAN EKLENMİŞ MODELİN EN İYİ HALİ %95,94 DOĞRULUK ORANI 
 MOBİLENETV2 --- GOOGLE'IN MOBİLENETV2 MODELİ İLE TRANSFER LEARNİNG %98,59 DOĞRULUK ORANI
 V21 MODEL --- BÜYÜK VERİ SETİNDE V20 MODEL İLE AYNI SADECE SINIFLARI HELİKOPTER VE DRONE DA DAHİL OLACAK ŞEKİLDE GÜNCELLEDİM. 
@@ -12,9 +13,10 @@ dataset1_küçük Küçük veri setim için 100-20-20 dağılmış örnek veri
 dataset4_küçük Büyük veri setim için 100-20-20 dağılmış örnek veri
 
 MODELLERİM;
-best_4class_model.keras --- en son kullandığım büyük veri setimdeki model yani V21
-best_model.keras --- V20 yani küçük veri setiminin en gelişmiş hali
+best_4class_model.keras --- V21 yani en son kullandığım büyük veri setimdeki en gelişmiş model 
+best_model.keras --- V12 yani küçük veri setiminin o ana kadar ki en gelişmiş hali
 best_tl_model.keras --- MobileNetV2 kullanılmış transfer learning modelim 
+best_v20_model.keras --- V20 yani en küçük veri setiminin en gelişmiş modeli
 
 Sonuç;
 Projemde 2. Yöntem olan CNN modeli eğitme konusunda önemli derecede ilerleme kaydettiğinimi düşünüyorum. İlk 
